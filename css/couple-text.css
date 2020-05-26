@@ -1,0 +1,14 @@
+/*********************************************** Mobile ************************************************/
+.couple-text {
+    font-family: "Ubuntu";
+    font-size: 10px;
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.couple-text > span:nth-of-type(1){
+    margin-bottom: 30px;
+}

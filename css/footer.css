@@ -1,0 +1,167 @@
+/*********************************************** Mobile ************************************************/
+.footer {
+    font-family: "Ubuntu";
+    padding: 30px 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(44, 44, 44, 0.72) 100%);
+}
+
+.footer-child-1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-child-2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.footer-child-2 > div {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../img/footer/green.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    align-items: center;
+}
+
+.footer-child-3 {
+    margin: 0 25px;
+    font-family: "Ubuntu-Light";
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-child-3-1 {
+    margin-bottom: 10px;
+}
+
+.footer-child-3-1-1 {
+    margin-bottom: 10px;
+}
+
+.footer-child-4-1 {
+    margin-top: 30px;
+    background-image: url("../img/footer/black.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.footer-child-4-1 > div {
+    display: inline-flex;
+}
+
+.footer-child-4-1 > div:nth-of-type(1) {
+    font-family: "Ubuntu";
+    font-weight: 500;
+    color: white;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer-child-4-1 > div:nth-of-type(2) {
+    padding-bottom: 2px;
+}
+
+.footer-child-4-1 > div:nth-of-type(2),
+.footer-child-4-1 > div:nth-of-type(3) {
+    font-family: "Ubuntu-Light";
+    font-size: 11px;
+    color: white;
+    padding-left: 25px;
+}
+
+.footer-child-4-2 {
+    width: 150px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+.footer-child-4-2 > div > img {
+    width: 15px;
+    margin-left: 5px;
+}
+
+.footer-child-5 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+}
+
+.footer-child-5 > div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-child-5 > div:nth-of-type(2) > div {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #DFDADA;
+    margin-bottom: 20px;
+}
+
+.footer-child-5 > div:nth-of-type(2) > div:nth-of-type(3) > div:hover,
+.footer-child-5 > div:nth-of-type(2) > div:nth-of-type(2) > span:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.footer-child-5 > div:nth-of-type(2) > div:nth-of-type(3) {
+    display: flex;
+}
+
+.footer-child-5 > div:nth-of-type(2) > div:nth-of-type(3) > div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.footer-child-5 > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) {
+    background-image: url("../img/footer/facebook.png");
+}
+
+.footer-child-5 > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) {
+    background-image: url("../img/footer/instagram.png");
+}
+
+#map {
+    height: 35vh;
+    margin-bottom: 20px;
+}
+
+.footer-child-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-child-6-child {
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 10px;
+    padding: 7px 15px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}

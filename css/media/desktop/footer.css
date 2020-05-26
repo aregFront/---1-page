@@ -1,0 +1,173 @@
+/* 1024 x 600 */
+@media screen and (min-width: 1000px) and (min-height: 450px) {
+
+    .footer-child-1 {
+        text-align: start;
+        padding-left: 8.125vw;
+        font-size: 3.3vw;
+        font-weight: normal;
+    }
+
+    .footer-child-2 {
+        text-align: start;
+        justify-content: flex-start;
+        padding-left: 8.125vw;
+        margin: 10px 0 25px 0;
+    }
+
+    .footer-child-2 > div {
+        font-weight: bold;
+        font-size: 2.5vw;
+        background-image: url("../../../img/footer/green.png");
+        background-size: 100% 100%;
+        background-position: center;
+        color: white;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-child-3 {
+        font-size: 1.6vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 8.125vw;
+        padding-right: 8.125vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer-child-3 > div {
+        width: 45%;
+        text-align: start;
+    }
+
+    .footer-child-3-1-1 {
+        margin-bottom: 30px;
+    }
+
+    .footer-child-4 {
+        padding-left: 4%;
+        padding-right: 8.125vw;
+    }
+
+    .footer-child-4-1 {
+        margin-top: 8.125vw;
+        background-image: url("../../../img/footer/black-desktop.png");
+        background-size: 75% 100%;
+        background-repeat: no-repeat;
+        display: inline-flex;
+        flex-direction: column;
+        padding: 40px 0;
+        padding-left: 40px;
+    }
+    
+    .footer-child-4-1 > div:nth-of-type(1) {
+        font-size: 6.6vw;
+        padding-left: 30px;
+    }
+    
+    .footer-child-4-1 > div:nth-of-type(2),
+    .footer-child-4-1 > div:nth-of-type(3) {
+        font-family: "Ubuntu-Light";
+        font-size: 1.6vw;
+        padding-left: 40px;
+    }
+
+    .footer-child-4-2 {
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto 100px auto;
+        cursor: pointer;
+        margin-right: 0;
+        margin-left: auto;
+        font-weight: 600;
+        font-size: 1.2vw;
+        padding: 5px 20px;
+    }
+    
+    .footer-child-4-2 > div > img {
+        width: 15px;
+        margin-left: 5px;
+    }
+
+    .footer-child-5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;
+        padding-left: 8.125vw;
+        padding-right: 8.125vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #map {
+        order: 2;
+        width: 70%;
+        height: 50vh;
+    }
+
+    .footer-child-5 > div:nth-of-type(2) {
+        justify-content: space-between;
+    }
+    
+    .footer-child-5 > div:nth-of-type(2) > div {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .footer-child-5 > div:nth-of-type(2) > div:nth-of-type(3) > div {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    
+    .footer-child-5 > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) {
+        background-image: url("../../../img/footer/facebook-desktop.png");
+    }
+    
+    .footer-child-5 > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) {
+        background-image: url("../../../img/footer/instagram-desktop.png");
+    }
+
+    .footer-child-6 {
+        display: none;
+    }
+
+    .footer-child-7 {
+        display: block;
+        font-size: 0.97vw;
+        font-family: "Lato";
+        color: #DFDADA;
+        text-align: end;
+        padding-right: 8.125vw;
+    }
+
+}
+
+/* 1280 x 768 */
+@media screen and (min-width: 1250px) and (min-height: 618px) {
+
+    
+}
+
+/* 1366 x 768 */
+@media screen and (min-width: 1320px) and (min-height: 618px) {
+
+ 
+
+}   
+
+/* 1600 x 900 */
+@media screen and (min-width: 1550px) and (min-height: 650px) {
+
+   
+
+}   

@@ -1,0 +1,62 @@
+.minHeader {
+    display: none;
+}
+
+.minLogoHeader {
+    background-image: url("../../img/top/desktop/white.png");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 130px;
+    padding: 10px 0 10px 0;
+    display: none;
+    justify-content: center;
+    color: black;
+}
+
+.minLogoHeader > span > div:nth-child(1) {
+    font-family: 'Raleway';
+    letter-spacing: 1px;
+    padding: 5px 0 0 20px;
+    margin-bottom: -8px;
+    font-size: 4.5px;
+}
+
+.minLogoHeader > span > div:nth-child(2) {
+    font-family: 'MarckScript';
+    font-size: 21.25px;
+}
+
+.minMenuHeader {
+    display: none;
+}
+
+.minMenuHeader > img {
+   margin-bottom: 5px;
+   width: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .onHeader {
+        display: none;
+    }
+  
+    .minHeader {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .minLogoHeader {
+        display: flex;
+    }
+ 
+    .minMenuHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+}

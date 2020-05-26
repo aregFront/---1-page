@@ -1,0 +1,22 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hidden {
+    display: none;
+}
+
+.bold-ubuntu {
+    font-family: "Ubuntu";
+}

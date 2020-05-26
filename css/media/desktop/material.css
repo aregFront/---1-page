@@ -1,0 +1,159 @@
+/* 1024 x 600 */
+@media screen and (min-width: 1000px) and (min-height: 450px) {
+
+    .material-child-2-1 {
+        order: 2;
+    }
+
+    .material-child-2-2 {
+        order: 1;
+    }
+
+    .material-child-1 {
+        padding-left: 8.125vw;
+        margin-left: 0;
+        font-size: 3.3vw;
+        font-weight: normal;
+    }
+
+    .material-child-2-1 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 8.125vw;
+        padding-right: 8.125vw;
+        align-items: center;
+    }
+
+   .material-window {
+        width: 40%;
+        height: 50%;
+        margin: 0;
+   }
+
+   .material-colors {
+       width: 50%;
+       flex-direction: column;
+       align-items: center;
+       padding: 0;
+   }
+
+   .material-colors-child {
+        width: 50%;
+        padding: 30px;
+        background-repeat: no-repeat;
+        background-size: 100% 90%;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        margin: 1% 0;
+    }
+
+   .material-colors-child > img {
+       width: 60px;
+       height: 60px;
+       margin-right: 15px;
+       margin-left: 20%;
+   }
+
+   .material-colors-child > span {
+        width: 80%;
+    }
+
+    .material-child-2-2-title {
+        text-align: center;
+        font-size: 2.3vw;
+    }
+
+    .material-child-2-2-quatrain {
+        display: none;
+    }
+
+    .material-child-2-2-quatrain-desktop {
+        display: flex;
+        padding-left: 8.125vw;
+        padding-right: 8.125vw;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: "Ubuntu-Light";
+        margin-bottom: 60px;
+    }
+
+    .material-child-2-2-quatrain-desktop > span {
+        font-size: 1.6vw;
+        width: 20%;
+    }
+
+    .material-border {
+        background-color: #c0c0c0;
+        width: 0.5px !important;
+    }
+
+    .material-child-3 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .material-child-3-1 {
+        padding-left: 8.125vw;
+        margin-bottom: 60px;
+        font-size: 3.3vw;
+        font-weight: normal;
+    }
+
+    .material-child-3-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 8.125vw;
+        padding-right: 8.125vw;
+    }
+
+    .material-child-3-2-1, .material-child-3-2-2 {
+        width: 100%;
+        font-size: 1.6vw;
+    }
+
+    .material-child-3-2-1 > span, .material-child-3-2-2 > span {
+        margin-bottom: 20px;
+    }
+
+    .material-child-3-4 {
+        padding-left: 8.125vw;
+        font-size: 1.6vw;
+        display: flex;
+        padding-top: 30px;
+    }
+
+}
+
+/* 1280 x 768 */
+@media screen and (min-width: 1250px) and (min-height: 618px) {
+
+    .material-colors-child {
+        padding: 40px;
+    }
+
+   .material-colors-child > img {
+       width: 90px;
+       height: 90px;
+   }
+
+   .material-child-2-2-quatrain-desktop > span {
+        font-size: 1.6vw;
+    }
+
+}
+
+/* 1366 x 768 */
+@media screen and (min-width: 1320px) and (min-height: 618px) {
+
+ 
+
+}   
+
+/* 1600 x 900 */
+@media screen and (min-width: 1550px) and (min-height: 650px) {
+
+   
+
+}   

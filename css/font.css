@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../font/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: url("../font/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: "MarckScript";
+    src: url("../font/MarckScript-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../font/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../font/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: "Light";
+    src: url("../font/Light.ttf");
+}

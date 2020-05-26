@@ -1,0 +1,161 @@
+/*********************************************** Mobile ************************************************/
+.material {
+    padding: 30px 0;
+    font-family: "Ubuntu";
+}
+
+.material-child-1 {
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+.material-child-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.material-child-2-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.material-window {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.material-colors {
+    display: flex;
+    margin: 0 50px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.material-colors-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.material-colors-child > img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.material-colors-child > img {
+    height: 8.5vh;
+    max-height: 100px;
+    width: 100%;
+}
+
+.material-colors-child > span {
+    font-size: 13px;
+    font-family: "Ubuntu-Light";
+    margin-top: 10px;
+}
+
+.material-arrow, .material-arrow-left {
+    position: absolute;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    max-height: 100px;
+}
+
+.material-arrow:hover, .material-arrow-left:hover {
+   cursor: pointer;
+}
+
+.material-arrow-left {
+    left: 5px;
+    width: 14px;
+    display: none;
+}
+
+
+.material-arrow-left > img{
+    transform: rotate(180deg);
+}
+
+.material-colors-child-3 {
+    display: none;
+}
+
+.material-child-2-2-title {
+    margin: 30px 0 30px 25px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.material-child-2-2-quatrain {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 12px;
+}
+
+.material-child-2-2-quatrain > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.material-child-2-2-quatrain-desktop {
+    display: none;
+}
+
+.material-child-2-2-quatrain > div > span {
+    width: 40%;
+    font-family: "Ubuntu-Light";
+    margin: 20px 0;
+}
+
+.material-child-3 {
+    margin: 30px 25px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Ubuntu-Light";
+}
+
+.material-child-3-1 {
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.material-child-3-2-1,
+.material-child-3-2-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.material-child-3-2-1 > span,
+.material-child-3-2-2 > span {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.material-child-3-4 {
+    font-size: 12px;
+}
+
+.material-child-3-green {
+    background-image: url("../img/material/green.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5px 10px 10px 10px;
+    color: white;
+}
+
+.material-child-3-green > span {
+    border-bottom: 1px solid white;
+}

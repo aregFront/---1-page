@@ -1,0 +1,135 @@
+/*********************************************** Mobile ************************************************/
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../img/top/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.top-menu, .top-contacts {
+    display: none;
+}
+
+.top-child-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px 0;
+}
+
+.top-child-1-1 {
+    background-image: url("../img/top/mobile/white.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+}
+
+.top-child-1-1 > span:nth-of-type(1) {
+    font-family: "Raleway";
+    font-size: 3px;
+    letter-spacing: 0.18em;
+    margin-top: 8px;
+    margin-left: -10px;
+}
+
+.top-child-1-1 > span:nth-of-type(2) {
+    font-family: "MarckScript";
+    font-size: 10px;
+    margin-top: -5px;
+}
+
+.top-menu-btn {
+    width: 30px;
+}
+
+.top-menu-btn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.top-child-2 {
+    padding-left: 10px;
+    display: inline-flex;
+    transform: translate(0, -50%);
+}
+
+.top-title {
+    background-image: url("../img/top/mobile/black.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 40px;
+}
+
+.top-title > div {
+    display: inline-flex;
+}
+
+.top-title > div:nth-of-type(1) {
+    font-family: "Ubuntu";
+    font-weight: 500;
+    color: white;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 26px;
+}
+
+.top-title > div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-title > div:nth-of-type(2) > div {
+    padding-bottom: 2px;
+    font-family: "Ubuntu-Light";
+    font-size: 14px;
+    color: white;
+    padding-left: 25px;
+}
+
+.top-child-3 {
+    padding: 0 25px 15px;
+}
+
+.on-top-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.top-btn {
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 10px;
+    padding: 7px 15px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.top-soc-icons {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
+.top-soc-icons > img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.top-soc-icons > img:hover {
+    opacity: .5;
+    cursor: pointer;
+}   
+

@@ -1,0 +1,83 @@
+/* Mobile */
+@media screen and (max-width: 800px) and (min-width: 421px) {
+
+    .buttonTop > div {
+        font-size: 14px !important;
+    }
+
+}
+
+@media screen and (max-width: 950px) and (min-width: 421px) {
+
+    .top-title > div:nth-of-type(1) {
+        font-size: 500px;
+        padding-bottom: 12px;
+    }
+
+    .top-title > div:nth-of-type(2) {
+        padding-bottom: 4px;
+    }
+
+    .top-title > div:nth-of-type(2) > div {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 950px) and (min-width: 530px) {
+
+    .top-title > div:nth-of-type(1) {
+        font-size: 40px;
+        padding-left: 40px;
+    }
+
+    .top-title > div:nth-of-type(2) {
+        padding-bottom: 6px;
+    }
+
+    .top-title > div:nth-of-type(2),
+    .top-title > div:nth-of-type(3) {
+        font-size: 16px;
+        padding-left: 40px;
+    }
+
+    .top-child-1 {
+        padding: 15px 35px 0;
+    }
+
+    .top-child-2 {
+        padding-left: 20px;
+    }
+
+    .top-btn {
+        font-family: "Ubuntu";
+        font-weight: bold;
+        font-size: 16px;
+        padding: 7px 15px;
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 950px) and (min-width: 600px) {
+
+    .top-title > div:nth-of-type(1) {
+        font-size: 50px;
+        padding-bottom: 16px;
+    }
+
+    .top-title > div:nth-of-type(2) {
+        padding-bottom: 8px;
+    }
+
+    .top-title > div:nth-of-type(2),
+    .top-title > div:nth-of-type(3) {
+        font-size: 19px;
+    }
+
+}
+
+/* End Mobile */
